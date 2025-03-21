@@ -2,15 +2,15 @@
     "title": "CrosswordGenerator-in_scrabble",
     "packages": [
         {
+            "name": "scrabble.bot",
+            "state": "NEUTRAL"
+        },
+        {
             "name": "scrabble",
             "state": "NEUTRAL"
         },
         {
             "name": "scrabble.game",
-            "state": "NEUTRAL"
-        },
-        {
-            "name": "scrabble.bot",
             "state": "NEUTRAL"
         }
     ],

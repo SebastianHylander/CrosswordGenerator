@@ -2,15 +2,15 @@
     "title": "CrosswordGenerator-completeView",
     "packages": [
         {
+            "name": "crossword",
+            "state": "NEUTRAL"
+        },
+        {
             "name": "scrabble.bot",
             "state": "NEUTRAL"
         },
         {
             "name": "scrabble.game",
-            "state": "NEUTRAL"
-        },
-        {
-            "name": "crossword",
             "state": "NEUTRAL"
         },
         {
