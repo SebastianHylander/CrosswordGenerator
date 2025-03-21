@@ -1,0 +1,1 @@
+from scrabble.game.game import Game

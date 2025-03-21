@@ -1,0 +1,55 @@
+{
+    "title": "CrosswordGenerator-in_scrabble",
+    "packages": [
+        {
+            "name": "scrabble",
+            "state": "NEUTRAL"
+        },
+        {
+            "name": "scrabble.game",
+            "state": "NEUTRAL"
+        },
+        {
+            "name": "scrabble.bot",
+            "state": "NEUTRAL"
+        }
+    ],
+    "edges": [
+        {
+            "state": "NEUTRAL",
+            "fromPackage": "scrabble.bot",
+            "toPackage": "scrabble.game",
+            "label": "1",
+            "relations": [
+                {
+                    "from_file": {
+                        "name": "bot.py",
+                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\bot\\bot.py"
+                    },
+                    "to_file": {
+                        "name": "game.py",
+                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\game\\game.py"
+                    }
+                }
+            ]
+        },
+        {
+            "state": "NEUTRAL",
+            "fromPackage": "scrabble.bot",
+            "toPackage": "scrabble",
+            "label": "1",
+            "relations": [
+                {
+                    "from_file": {
+                        "name": "bot.py",
+                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\bot\\bot.py"
+                    },
+                    "to_file": {
+                        "name": "game.py",
+                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\game\\game.py"
+                    }
+                }
+            ]
+        }
+    ]
+}

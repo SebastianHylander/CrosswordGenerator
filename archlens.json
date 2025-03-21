@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/archlens/ArchLens/master/src/config.schema.json",
+    "name": "CrosswordGenerator",
+    "rootFolder": "src",
+    "github": {
+        "url": "https://github.com/SebastianHylander/CrosswordGenerator",
+        "branch": "main"
+    },
+    "saveLocation": "./diagrams/",
+    "views": {
+        "completeView": {
+            "packages": [],
+            "ignorePackages": []
+        },
+        "in_scrabble": {
+            "packages": ["scrabble"],
+            "ignorePackages": []
+        }
+    }
+}
