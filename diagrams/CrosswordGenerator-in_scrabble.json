@@ -6,6 +6,10 @@
             "state": "NEUTRAL"
         },
         {
+            "name": "scrabble.bot.gaddag",
+            "state": "NEUTRAL"
+        },
+        {
             "name": "scrabble",
             "state": "NEUTRAL"
         },

@@ -7,3 +7,6 @@ class Game:
     def _read_dictionary(self, dictionary_path):
         with open(dictionary_path, "r") as file:
             return set(word.strip() for word in file)
+        
+    def __str__(self):
+        return "\n".join(" ".join(row) for row in self.board)

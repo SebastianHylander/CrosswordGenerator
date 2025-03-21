@@ -2,11 +2,7 @@
     "title": "CrosswordGenerator-completeView",
     "packages": [
         {
-            "name": "crossword",
-            "state": "NEUTRAL"
-        },
-        {
-            "name": "scrabble.bot",
+            "name": "scrabble",
             "state": "NEUTRAL"
         },
         {
@@ -14,7 +10,15 @@
             "state": "NEUTRAL"
         },
         {
-            "name": "scrabble",
+            "name": "scrabble.bot",
+            "state": "NEUTRAL"
+        },
+        {
+            "name": "scrabble.bot.gaddag",
+            "state": "NEUTRAL"
+        },
+        {
+            "name": "crossword",
             "state": "NEUTRAL"
         }
     ],
