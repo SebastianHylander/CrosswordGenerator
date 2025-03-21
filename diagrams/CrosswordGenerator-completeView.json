@@ -2,7 +2,11 @@
     "title": "CrosswordGenerator-completeView",
     "packages": [
         {
-            "name": "scrabble",
+            "name": "crossword",
+            "state": "NEUTRAL"
+        },
+        {
+            "name": "scrabble.game.gaddag",
             "state": "NEUTRAL"
         },
         {
@@ -10,54 +14,9 @@
             "state": "NEUTRAL"
         },
         {
-            "name": "scrabble.bot",
-            "state": "NEUTRAL"
-        },
-        {
-            "name": "scrabble.bot.gaddag",
-            "state": "NEUTRAL"
-        },
-        {
-            "name": "crossword",
+            "name": "scrabble",
             "state": "NEUTRAL"
         }
     ],
-    "edges": [
-        {
-            "state": "NEUTRAL",
-            "fromPackage": "scrabble.bot",
-            "toPackage": "scrabble.game",
-            "label": "1",
-            "relations": [
-                {
-                    "from_file": {
-                        "name": "bot.py",
-                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\bot\\bot.py"
-                    },
-                    "to_file": {
-                        "name": "game.py",
-                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\game\\game.py"
-                    }
-                }
-            ]
-        },
-        {
-            "state": "NEUTRAL",
-            "fromPackage": "scrabble.bot",
-            "toPackage": "scrabble",
-            "label": "1",
-            "relations": [
-                {
-                    "from_file": {
-                        "name": "bot.py",
-                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\bot\\bot.py"
-                    },
-                    "to_file": {
-                        "name": "game.py",
-                        "path": "c:\\Users\\hylan\\Documents\\Programming\\GitHub\\CrosswordGenerator\\src\\scrabble\\game\\game.py"
-                    }
-                }
-            ]
-        }
-    ]
+    "edges": []
 }

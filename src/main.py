@@ -1,6 +1,6 @@
 from scrabble.game.game import Game
 import pathlib
-from scrabble.bot.gaddag.gaddag import Gaddag
+from scrabble.game.gaddag.gaddag import Gaddag
 
 game = Game(15, "./resources/dictionaries/test_dict.txt")
 print(game.dictionary)
@@ -10,6 +10,10 @@ gaddag = Gaddag()
 
 for word in game.dictionary:
     gaddag.add_word(word)
+
+game.play()
+
+print(game)
 
 s = input()
 while s:
