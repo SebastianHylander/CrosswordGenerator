@@ -44,3 +44,4 @@ class Gaddag:
     
     def reverse(self):
         return self.step(SPECIAL_CHAR)
+    
