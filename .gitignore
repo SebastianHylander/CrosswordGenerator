@@ -1,0 +1,14 @@
+# venv
+.venv/
+
+# IDE
+.vscode/
+
+# pycache
+__pycache__/
+
+# Logs
+logs/
+
+# Resources
+resources/*
